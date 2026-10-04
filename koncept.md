@@ -18,7 +18,7 @@ Systemet delas upp i tre huvudsakliga delar:
 
 - **Administrationsgränssnitt:** Används för att registrera nya klienter, hantera åtkomst och administrera systemet.
 
-Servern kommer att köras på en VPS med Node.js och Express. Eftersom servern redan har HTTPS kan kommunikationen mellan klienterna och servern krypteras.
+Servern kommer att köras på en VPS med Node.js (inbyggd Node server eller Express). Eftersom servern redan har HTTPS kan kommunikationen mellan klienterna och servern krypteras.
 
 ## 3. Central server
 
