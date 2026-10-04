@@ -8,4 +8,6 @@ Servern hanterar autentisering, klientregistrering, API-kommunikation och datala
 
 Systemet använder transaktionslåsning för att förhindra samtidiga skrivkonflikter. Målet är att skapa ett enkelt, säkert och utbyggbart verktyg för samarbete och praktisk webbutveckling.
 
+[Detaljerad koncept ->](koncept.md)
+
 <img src="bilder/Kanban-appens systemarkitektur.png" width="720">
