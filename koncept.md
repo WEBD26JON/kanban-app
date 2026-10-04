@@ -8,17 +8,18 @@ Applikationen ska bestå av ett centralt serversystem och separata klientapplika
 
 Projektet är också ett tillfälle att praktiskt arbeta med HTML, CSS, JavaScript, Node.js, API-utveckling, autentisering och databashantering.
 
-## 2. Systemarkitektur
-
-Systemet delas upp i tre huvudsakliga delar:
+## 2. Systemet delas upp i tre huvudsakliga delar:
 
 - **Central server:** Hanterar klienter, autentisering, API-anrop och lagring av data.
-
+  
 - **Klientapplikationer:** Körs lokalt på varje användares dator och visar Kanban-tavlan i webbläsaren.
-
+  
 - **Administrationsgränssnitt:** Används för att registrera nya klienter, hantera åtkomst och administrera systemet.
+  
+Servern kommer att köras på en VPS med Node.js. För serverhantering och API-utveckling kan vi antingen använda Node.js 
+inbyggda HTTP-modul eller Express.js, ett webbramverk för Node.js. Valet görs utifrån projektets behov och vad vi vill lära oss under utvecklingen.
 
-Servern kommer att köras på en VPS med Node.js (inbyggd Node server eller Express). Eftersom servern redan har HTTPS kan kommunikationen mellan klienterna och servern krypteras.
+Eftersom servern redan har HTTPS kan kommunikationen mellan klienterna och servern krypteras.
 
 ## 3. Central server
 
@@ -164,7 +165,7 @@ Gränssnittet ska vara responsivt och fungera både på datorer och mindre skär
 | CSS3           | Design och responsiv layout     |
 | JavaScript     | Interaktivitet i klienten       |
 | Node.js        | Lokal klient och central server |
-| Express.js     | API och serverhantering         |
+| Node.js HTTP/Express.js| API och serverhantering         |
 | JSON           | Inledande datalagring           |
 | HTTPS          | Krypterad kommunikation         |
 | Git och GitHub | Versionshantering och samarbete |
